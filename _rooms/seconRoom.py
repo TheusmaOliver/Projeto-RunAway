@@ -234,9 +234,9 @@ Caso contrário perderá mais {}tempo{} que o normal\n\n'''.format(cores['red'],
                         if opcaoEspelho == 2:
                             print('Você olha para o espelho e vê:\n')
 
-                            visualizar = randint(1, 3)
+                            visualizar = randint(1, 6)
 
-                            if visualizar != 3:
+                            if visualizar == 3:
                                 print('Um Dinossauro')
                                 sleep(1)
                                 fraseAnimation = 'Você está muito cansado, é impossível isso estar na sala, descanse 5 minutos!\n\n'
