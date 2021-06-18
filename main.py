@@ -9,6 +9,7 @@ from _time.clock import *
 from time import sleep
 import pygame
 
+heroku buildpacks:set heroku/python
 
 pygame.mixer.init()
 pygame.mixer.music.load('_music/trilhasuspensa.ogg')
