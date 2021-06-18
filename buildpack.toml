@@ -1,0 +1,12 @@
+[buildpack]
+name = "Python"
+
+[publish.Ignore]
+files = [
+    "__pycache__/",
+    "build/",
+    "dist/",
+    "main.spec",
+    ".gitignore",
+    "requirements.txt",
+]
